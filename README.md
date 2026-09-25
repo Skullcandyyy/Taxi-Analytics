@@ -1,84 +1,85 @@
-# 🚕 TAXI ANALYTICS — POWER BI
+# 🚕 Taxi Analytics — Power BI Dashboard
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=700&size=26&pause=1200&color=FFFFFF&background=111111&center=true&vCenter=true&width=800&height=70&lines=Ride+Better.+Data+Smarter.;Turning+Taxi+Data+into+Business+Insights;Bookings+%7C+Revenue+%7C+Vehicles+%7C+Ratings" alt="Animated Taxi Analytics heading" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=700&size=28&duration=3000&pause=1000&color=FFFFFF&background=111111&center=true&vCenter=true&width=800&lines=Taxi+Analytics+Dashboard;Power+BI+%7C+DAX+%7C+Power+Query;Turning+Taxi+Data+into+Business+Insights" alt="Typing SVG" />
+
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Power%20BI-Analytics-F2C811?style=for-the-badge&logo=powerbi&logoColor=111111" />
-  <img src="https://img.shields.io/badge/DAX-Data%20Modeling-111111?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Power%20Query-ETL-555555?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Excel-Dataset-777777?style=for-the-badge&logo=microsoftexcel&logoColor=white" />
+
+<img src="https://img.shields.io/badge/Power%20BI-Analytics-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
+<img src="https://img.shields.io/badge/DAX-Data%20Modeling-1F4E79?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Power%20Query-ETL-5C2D91?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Excel-Dataset-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white"/>
+
 </p>
 
 ---
 
-## 📌 Project Overview
+# 📌 Project Overview
 
-**Taxi Analytics** is an interactive Power BI business intelligence project designed to transform raw taxi trip data into actionable business insights.
+The **Taxi Analytics Dashboard** is an interactive Power BI project designed to analyze taxi booking operations, revenue, vehicle performance, cancellations, customer ratings, and booking trends.
 
-The dashboard analyzes:
-
-- 🚕 Booking performance
-- 💰 Revenue
-- 🚗 Vehicle type performance
-- ❌ Cancellations
-- ⭐ Customer & driver ratings
-- 📍 Pickup and drop locations
-- 📅 Time-based booking trends
-
-The project contains **7 interactive dashboard pages**, designed with a clean, professional analytics interface.
+The dashboard transforms raw taxi booking data into meaningful business insights that can support operational monitoring and data-driven decision-making.
 
 ---
 
-## 🎯 Business Problem
+# 🎯 Business Problem
 
-Taxi businesses generate large volumes of booking and trip data, but raw transactional data makes it difficult to understand operational performance.
+Taxi businesses generate large volumes of booking and trip data, but raw data alone does not provide a clear view of operational performance.
 
-Key challenges include:
+The key business questions addressed in this project include:
 
-- Understanding booking and demand patterns
-- Monitoring successful and cancelled rides
-- Tracking revenue and booking value
-- Comparing vehicle categories
-- Identifying customer and driver cancellation patterns
-- Measuring customer satisfaction
-- Identifying high-activity pickup and drop locations
-- Understanding trends across time
-
-### 💡 Objective
-
-Build a centralized Power BI analytics solution that converts raw taxi data into an interactive dashboard for monitoring **operations, revenue, vehicles, cancellations, customer experience, and locations**.
+- How many bookings are being generated?
+- How many bookings are successfully completed?
+- What is the cancellation level?
+- Which vehicle types generate the highest booking volume?
+- How does revenue vary across different segments?
+- What are the major cancellation patterns?
+- How are customers rating their taxi experience?
+- How do booking trends change over time?
 
 ---
 
-## 🔄 Analysis Flow
+# 🎯 Project Objective
 
-```text
-Raw Taxi Data
-      ↓
-Data Cleaning & Transformation
-      ↓
-Data Modeling
-      ↓
-DAX Measures
-      ↓
-Interactive Power BI Dashboard
-      ↓
-Business Insights
-      ↓
-Data-Driven Decisions
-```
+The objective of this project is to build an interactive dashboard that helps stakeholders:
+
+- Monitor booking performance
+- Analyze revenue
+- Compare vehicle types
+- Understand cancellation behavior
+- Track customer ratings
+- Identify booking trends
+- Discover operational opportunities
+- Support data-driven business decisions
+
+---
+
+# 🛠️ Tools & Technologies
+
+| Tool | Purpose |
+|---|---|
+| **Power BI** | Dashboard development & visualization |
+| **DAX** | Measures & analytical calculations |
+| **Power Query** | Data cleaning & transformation |
+| **Microsoft Excel** | Dataset |
+| **Data Modeling** | Relationships & analytical structure |
 
 ---
 
 # 📊 Dashboard Pages
 
+The dashboard consists of **7 analytical pages**.
+
+---
+
 ## 01 — 🏠 Home Page
 
 Executive-level overview of the taxi business.
 
-**Focus Areas**
+### Focus Areas
 
 - Total bookings
 - Successful bookings
@@ -90,15 +91,15 @@ Executive-level overview of the taxi business.
 
 ### Preview
 
-![Home Page](Screenshots/01_Home.png)
+![Home Page](Screenshots/Home.png)
 
 ---
 
 ## 02 — 📊 Overall Analysis
 
-Provides a complete view of taxi operations.
+Provides a comprehensive view of overall booking performance and operational trends.
 
-**Focus Areas**
+### Focus Areas
 
 - Booking status distribution
 - Monthly booking trends
@@ -108,7 +109,7 @@ Provides a complete view of taxi operations.
 
 ### Preview
 
-![Overall Analysis](Screenshots/02_Overall_Analysis.png)
+![Overall Analysis](Screenshots/Overall%20analysis.png)
 
 ---
 
@@ -116,7 +117,7 @@ Provides a complete view of taxi operations.
 
 Compares performance across different vehicle categories.
 
-**Focus Areas**
+### Focus Areas
 
 - Booking volume
 - Booking value
@@ -127,243 +128,177 @@ Compares performance across different vehicle categories.
 
 ### Preview
 
-![Vehicle Type Analysis](Screenshots/03_Vehicle_Type.png)
+![Vehicle Type Analysis](Screenshots/Vehicle%20type.png)
 
 ---
 
 ## 04 — 💰 Revenue Analysis
 
-Analyzes how revenue is generated across the taxi business.
+Analyzes revenue performance across different booking and operational segments.
 
-**Focus Areas**
+### Focus Areas
 
 - Total revenue
-- Average booking value
-- Revenue per kilometer
+- Revenue trends
+- Revenue by vehicle type
 - Revenue by payment method
-- Monthly revenue trends
-- Vehicle-level revenue performance
-- Top booking values
+- Revenue contribution
+- Day-part analysis
 
 ### Preview
 
-![Revenue Analysis](Screenshots/04_Revenue.png)
+![Revenue Analysis](Screenshots/Revenue.png)
 
 ---
 
 ## 05 — ❌ Cancellation Analysis
 
-Explores cancellation behavior and identifies where cancellations are concentrated.
+Analyzes booking cancellations and identifies major cancellation patterns.
 
-**Focus Areas**
+### Focus Areas
 
-- Total cancellations
+- Cancellation volume
+- Cancellation rate
 - Customer cancellations
 - Driver cancellations
-- Cancellation rate
 - Cancellation reasons
 - Cancellation trends
-- Cancellation rate by vehicle type
-- Top cancellation locations
 
 ### Preview
 
-![Cancellation Analysis](Screenshots/05_Cancellation.png)
+![Cancellation Analysis](Screenshots/Cancellation.png)
 
 ---
 
 ## 06 — ⭐ Ratings Analysis
 
-Analyzes customer satisfaction and service quality.
+Analyzes customer ratings and service experience.
 
-**Focus Areas**
+### Focus Areas
 
-- Average rating
+- Average customer rating
 - Rating distribution
-- Positive and negative feedback
-- Rating trends
 - Ratings by vehicle type
-- Pickup and drop location ratings
-- Customer feedback
+- Ratings by booking category
+- Customer experience trends
 
 ### Preview
 
-![Ratings Analysis](Screenshots/06_Ratings.png)
+![Ratings Analysis](Screenshots/Ratings.png)
 
 ---
 
-## 07 — 📋 Summary Insights
+## 07 — 📈 Summary Insights
 
-An executive summary bringing together the most important findings from the analysis.
+Provides a consolidated view of the major findings from the taxi analytics project.
 
-**Focus Areas**
+### Focus Areas
 
-- Overall KPIs
+- Overall business performance
 - Booking performance
 - Revenue trends
 - Vehicle performance
 - Cancellation patterns
-- Location performance
-- Customer experience
+- Customer ratings
+- Operational insights
 
 ### Preview
 
-![Summary Insights](Screenshots/07_Summary.png)
+![Summary](Screenshots/Summary.png)
 
 ---
 
-# 💡 Key Business Insights
+# 🔍 Key Business Insights
 
-### 📈 Booking Performance
+The dashboard enables analysis of several important business areas:
 
-The dashboard provides visibility into booking volume, successful rides, cancellations, and demand patterns across different time periods.
-
-### 🚕 Vehicle Performance
-
-Vehicle-level analysis enables comparison of booking activity, booking value, distance travelled, and success rates across vehicle categories.
+### 🚕 Booking Performance
+Provides visibility into total bookings, successful bookings, cancellations, and booking trends.
 
 ### 💰 Revenue Performance
+Helps identify revenue contribution across different vehicle and operational segments.
 
-Revenue analysis provides visibility into total revenue, average booking value, revenue per kilometer, payment methods, and monthly revenue trends.
+### 🚘 Vehicle Performance
+Allows comparison of booking volume, booking value, distance travelled, and success rate across vehicle categories.
 
 ### ❌ Cancellation Behavior
-
-Customer and driver cancellations are analyzed separately to identify where cancellation activity is concentrated across vehicle types, locations, and time periods.
+Highlights cancellation patterns and helps identify areas where operational improvements may reduce lost bookings.
 
 ### ⭐ Customer Experience
+Customer ratings provide an indication of service experience across different segments.
 
-Ratings and feedback analysis provides visibility into customer satisfaction across vehicle types and locations.
-
-### 📍 Location Intelligence
-
-Pickup and drop-location analysis helps identify areas with higher booking activity and demand concentration.
+### 📅 Booking Trends
+Time-based analysis helps identify changes in booking activity by month and day of week.
 
 ---
 
-# 🧠 Business Solution
+# 💡 Business Solution
 
-The solution was to create a centralized Power BI analytics platform that connects multiple aspects of taxi operations in one interactive environment.
+Based on the analytical framework, the dashboard can help taxi businesses:
 
-```text
-Bookings
-   ↓
-Revenue
-   ↓
-Vehicle Performance
-   ↓
-Cancellations
-   ↓
-Customer Experience
-   ↓
-Location Intelligence
-```
-
-Instead of analyzing each area separately, stakeholders can interact with the dashboard to explore relationships between operational, financial, and customer metrics.
+- Monitor booking performance regularly
+- Identify high-performing vehicle categories
+- Investigate cancellation patterns
+- Improve operational efficiency
+- Track revenue performance
+- Monitor customer experience
+- Identify changes in demand
+- Support data-driven operational planning
 
 ---
 
-# 📈 Analytical Capabilities
+# 📈 Business Impact
 
-| Area | Analysis |
+The dashboard provides a centralized analytical view that can help stakeholders:
+
+- Make faster decisions
+- Identify operational issues
+- Track important KPIs
+- Understand customer behavior
+- Improve resource allocation
+- Monitor revenue performance
+- Identify potential growth opportunities
+
+---
+
+# 🧠 Analytical Capabilities
+
+| Capability | Implementation |
 |---|---|
-| Bookings | Volume, status, trends |
-| Revenue | Revenue, booking value, revenue/KM |
-| Vehicles | Volume, distance, performance |
-| Cancellations | Customer vs driver, reasons, locations |
-| Ratings | Average rating, distribution, feedback |
-| Locations | Pickup and drop activity |
-| Time | Monthly and weekday trends |
-
----
-
-# 🛠️ Tools & Skills
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=111111"/>
-  <img src="https://img.shields.io/badge/DAX-111111?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Power%20Query-555555?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white"/>
-</p>
-
-- Data Cleaning
-- Data Transformation
-- Data Modeling
-- DAX Measures
-- KPI Development
-- Business Intelligence
-- Data Visualization
-- Trend Analysis
-- Revenue Analysis
-- Customer Analytics
-- Operational Analytics
+| KPI Analysis | Power BI Cards |
+| Trend Analysis | Line & Area Charts |
+| Category Comparison | Bar & Column Charts |
+| Geographic Analysis | Location-based visuals |
+| Revenue Analysis | DAX Measures |
+| Cancellation Analysis | DAX + Visual Analysis |
+| Customer Analysis | Rating Analysis |
+| Interactive Filtering | Slicers |
+| Data Transformation | Power Query |
+| Data Modeling | Power BI Relationships |
 
 ---
 
 # 📂 Repository Structure
 
 ```text
-taxi-analytics-powerbi/
+Taxi-Analytics/
 │
-├── 📊 Dashboard/
+├── README.md
+│
+├── Dashboard/
 │   └── Taxi_Analytics.pbix
 │
-├── 🖼️ Screenshots/
-│   ├── 01_Home.png
-│   ├── 02_Overall_Analysis.png
-│   ├── 03_Vehicle_Type.png
-│   ├── 04_Revenue.png
-│   ├── 05_Cancellation.png
-│   ├── 06_Ratings.png
-│   └── 07_Summary.png
+├── Screenshots/
+│   ├── Cancellation.png
+│   ├── Home.png
+│   ├── Overall analysis.png
+│   ├── Ratings.png
+│   ├── Revenue.png
+│   ├── Summary.png
+│   └── Vehicle type.png
 │
-├── 📁 Dataset/
+├── Dataset/
 │   └── Taxi_Analytics_Dataset.xlsx
 │
-├── 🧮 DAX/
-│   └── DAX_Measures.txt
-│
-└── README.md
-```
-
----
-
-# 📎 Project Resources
-
-### 📊 Power BI Dashboard
-
-[View / Download PBIX](Dashboard/Taxi_Analytics.pbix)
-
-### 📁 Dataset
-
-[View Dataset](Dataset/Taxi_Analytics_Dataset.xlsx)
-
-### 🧮 DAX Measures
-
-[View DAX Measures](DAX/DAX_Measures.txt)
-
-> Replace the filenames above if your actual filenames are different.
-
----
-
-# 🚀 Key Takeaway
-
-**Taxi Analytics demonstrates how Power BI, DAX, and data visualization can transform raw transportation data into a structured business intelligence solution.**
-
-The project brings together:
-
-> **Bookings → Revenue → Vehicles → Cancellations → Ratings → Locations**
-
-to create a complete view of taxi operations and customer experience.
-
----
-
-## 👤 Author
-
-### Rohit Kumar
-
-**Data Analytics | Power BI | SQL | Excel | DAX**
-
-<p align="center">
-  <i>Built with data, dashboards, and curiosity.</i> 🚕📊
-</p>
-
+└── DAX/
+    └── DAX_Measures.txt
